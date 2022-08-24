@@ -1,0 +1,17 @@
+.m1{
+    
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 30px;
+}
+
+.customers{
+    font-size: 30px;
+    font-weight: bold;
+}
+.top1{
+    display: flex;
+    gap: 140px;
+}
