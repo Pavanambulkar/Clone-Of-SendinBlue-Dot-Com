@@ -22,6 +22,7 @@ const Navbar = () => {
   return (
     <>
       <Stack
+      
         direction={["column", "row"]}
         spacing="104px"
         marginTop="10px"
@@ -32,7 +33,7 @@ const Navbar = () => {
       >
         <Link to="/solution">
         
-          <Text fontSize="xl">SendinBlue</Text>
+          <Text fontSize={{ base: '24px', md: '40px', lg: '46px' }}>SendinBlue</Text>
         </Link>
         <Link to="/solution">
         <Menu>
@@ -49,11 +50,11 @@ const Navbar = () => {
         </Link>
         <Link to="/pricing">
          
-          <Text fontSize="xl">Pricing</Text>
+          <Text fontSize={{ base: '16px', md: '20px', lg: '20px' }}>Pricing</Text>
         </Link>
         <Link to="/features">
           <Menu>
-  <MenuButton as={Button} >
+  <MenuButton as={Button} fontSize={{ base: '26px', md: '30px', lg: '20px' }} >
     Features
   </MenuButton>
   <MenuList>
@@ -68,7 +69,7 @@ const Navbar = () => {
         </Link>
         <Link to="/resources">
             <Menu>
-        <MenuButton as={Button} >
+        <MenuButton as={Button} fontSize={{ base: '26px', md: '30px', lg: '20px' }} >
     Resources
   </MenuButton>
   <MenuList>
@@ -83,17 +84,17 @@ const Navbar = () => {
         </Link>
         <Link to="/blog">
          
-          <Text fontSize="xl">Blog</Text>
+          <Text fontSize={{ base: '16px', md: '20px', lg: '20px' }}>Blog</Text>
         </Link>
         <Link to="/login">
          
-          <Text fontSize="xl">Login</Text>
+          <Text fontSize={{ base: '16px', md: '20px', lg: '20px' }}>Login</Text>
         </Link>
         <Link to="/signup">
             <Menu>
 
            
-        <MenuButton as={Button} >
+        <MenuButton as={Button} fontSize={{ base: '26px', md: '30px', lg: '20px' }} >
         SignUp
   </MenuButton>
   </Menu>

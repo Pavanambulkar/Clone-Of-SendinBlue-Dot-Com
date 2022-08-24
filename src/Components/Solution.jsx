@@ -15,7 +15,7 @@ const Solution = () => {
     <>
     
       <Flex color="white" className="flex1">
-        <Box flex="1" bg="white">
+        <Box flex="1" bg="white"  >
           <h1 className="takeoff">
             Prepare For
             <br />
