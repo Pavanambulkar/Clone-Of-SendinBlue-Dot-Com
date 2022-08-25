@@ -4,6 +4,7 @@ import Compaign from '../EnterpriseCompo/Compaign'
 import CustomBuilt from '../EnterpriseCompo/CustomBuilt'
 import HereCustomer from '../EnterpriseCompo/HereCustomer'
 import Logos from '../EnterpriseCompo/Logos'
+import Organisation from '../EnterpriseCompo/Organisation'
 import Plans from '../EnterpriseCompo/Plans'
 import Technology from '../EnterpriseCompo/Technology'
 import Transaction from '../EnterpriseCompo/Transaction'
@@ -19,6 +20,7 @@ const Enterprise = () => {
         <Technology/>
         <Compaign/>
         <Transaction/>
+        <Organisation/>
     </div>
   )
 }
