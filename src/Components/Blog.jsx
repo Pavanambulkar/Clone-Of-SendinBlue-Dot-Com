@@ -1,8 +1,11 @@
 import React from 'react'
+import Search from '../BlogComponent/Search'
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div>
+      <Search/>
+    </div>
   )
 }
 
