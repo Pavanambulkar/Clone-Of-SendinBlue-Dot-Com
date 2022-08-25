@@ -9,6 +9,7 @@ import SignUp from "../Components/SignUp";
 import Solution from "../Components/Solution";
 import {Container} from '@chakra-ui/react'
 import Navbar from "../Components/Navbar";
+import WhySendinblue from "../Pages/WhySendinblue";
 const AllRoutes = () => {
   return (
     <>
@@ -23,6 +24,8 @@ const AllRoutes = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/whysendinblue" element={<WhySendinblue />} />
+
 
       </Routes>
      
