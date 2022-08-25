@@ -24,7 +24,7 @@ const Navbar = () => {
       <Stack
       
         direction={["column", "row"]}
-        spacing="104px"
+        spacing="74px"
         marginTop="10px"
         border="1px solid grey"
         paddingLeft="10px"
@@ -41,8 +41,8 @@ const Navbar = () => {
          Solution
   </MenuButton>
   <MenuList>
-    <MenuItem>Why SendinBlue?</MenuItem>
-    <MenuItem>EnterPrise</MenuItem>
+    <MenuItem> <Link to='/whysendinblue'>Why SendinBlue?</Link> </MenuItem>
+    <MenuItem> <Link to='/enterprise'>EnterPrise</Link> </MenuItem>
     
   </MenuList>
          </Menu>
