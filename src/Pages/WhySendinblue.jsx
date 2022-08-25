@@ -1,5 +1,7 @@
 import React from 'react'
 import { Flex,  Box, Text, Button, Img,  } from "@chakra-ui/react";
+import GrowFaster from '../SendinBlueCompo/GrowFaster';
+import RelationShip from '../SendinBlueCompo/RelationShip';
 
 const WhySendinblue = () => {
   return (
@@ -20,6 +22,8 @@ const WhySendinblue = () => {
             <Img height='90%' width='90%' src="https://cdn.vox-cdn.com/thumbor/F0qr-a5Wc-dHetzcloMSOw-sGYw=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21693783/iStock_1047941552.jpg" />
         </Box>
       </Flex>
+      <GrowFaster/>
+      <RelationShip/>
     </>
   )
 }
