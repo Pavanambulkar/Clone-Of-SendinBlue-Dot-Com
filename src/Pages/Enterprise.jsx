@@ -8,6 +8,7 @@ import Organisation from '../EnterpriseCompo/Organisation'
 import Plans from '../EnterpriseCompo/Plans'
 import Technology from '../EnterpriseCompo/Technology'
 import Transaction from '../EnterpriseCompo/Transaction'
+import { Footer } from '../SmallCompo/Footer'
 
 const Enterprise = () => {
   return (
@@ -21,6 +22,7 @@ const Enterprise = () => {
         <Compaign/>
         <Transaction/>
         <Organisation/>
+        <Footer/>
     </div>
   )
 }
