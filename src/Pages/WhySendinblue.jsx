@@ -2,6 +2,7 @@ import React from 'react'
 import { Flex,  Box, Text, Button, Img,  } from "@chakra-ui/react";
 import GrowFaster from '../SendinBlueCompo/GrowFaster';
 import RelationShip from '../SendinBlueCompo/RelationShip';
+import Communications from '../SendinBlueCompo/Communications';
 
 const WhySendinblue = () => {
   return (
@@ -24,6 +25,7 @@ const WhySendinblue = () => {
       </Flex>
       <GrowFaster/>
       <RelationShip/>
+      <Communications/>
     </>
   )
 }
