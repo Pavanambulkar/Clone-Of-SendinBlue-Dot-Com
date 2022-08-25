@@ -1,5 +1,6 @@
 import React from 'react'
 import Accelerate from '../EnterpriseCompo/Accelerate'
+import CustomBuilt from '../EnterpriseCompo/CustomBuilt'
 import HereCustomer from '../EnterpriseCompo/HereCustomer'
 import Logos from '../EnterpriseCompo/Logos'
 import Plans from '../EnterpriseCompo/Plans'
@@ -11,6 +12,7 @@ const Enterprise = () => {
         <Logos/>
         <Plans/>
         <HereCustomer/>
+        <CustomBuilt/>
     </div>
   )
 }
