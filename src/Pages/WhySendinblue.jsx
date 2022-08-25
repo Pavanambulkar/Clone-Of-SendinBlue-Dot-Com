@@ -7,6 +7,7 @@ import PopOver from '../SendinBlueCompo/PopOver';
 import Nomatter from '../SendinBlueCompo/Nomatter';
 import Zen from '../SendinBlueCompo/Zen';
 import { Footer } from '../SmallCompo/Footer';
+import HereCustomer from '../EnterpriseCompo/HereCustomer';
 
 const WhySendinblue = () => {
   return (
@@ -34,6 +35,7 @@ const WhySendinblue = () => {
       <Nomatter/>
       <Zen/>
       <Footer/>
+     
     </>
   )
 }
