@@ -6,6 +6,7 @@ import HereCustomer from '../EnterpriseCompo/HereCustomer'
 import Logos from '../EnterpriseCompo/Logos'
 import Plans from '../EnterpriseCompo/Plans'
 import Technology from '../EnterpriseCompo/Technology'
+import Transaction from '../EnterpriseCompo/Transaction'
 
 const Enterprise = () => {
   return (
@@ -17,6 +18,7 @@ const Enterprise = () => {
         <CustomBuilt/>
         <Technology/>
         <Compaign/>
+        <Transaction/>
     </div>
   )
 }
