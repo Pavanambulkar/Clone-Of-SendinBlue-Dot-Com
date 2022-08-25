@@ -3,6 +3,10 @@ import { Flex,  Box, Text, Button, Img,  } from "@chakra-ui/react";
 import GrowFaster from '../SendinBlueCompo/GrowFaster';
 import RelationShip from '../SendinBlueCompo/RelationShip';
 import Communications from '../SendinBlueCompo/Communications';
+import PopOver from '../SendinBlueCompo/PopOver';
+import Nomatter from '../SendinBlueCompo/Nomatter';
+import Zen from '../SendinBlueCompo/Zen';
+import { Footer } from '../SmallCompo/Footer';
 
 const WhySendinblue = () => {
   return (
@@ -26,6 +30,10 @@ const WhySendinblue = () => {
       <GrowFaster/>
       <RelationShip/>
       <Communications/>
+      <PopOver/>
+      <Nomatter/>
+      <Zen/>
+      <Footer/>
     </>
   )
 }

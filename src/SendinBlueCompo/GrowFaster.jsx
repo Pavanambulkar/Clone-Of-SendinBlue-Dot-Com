@@ -4,8 +4,8 @@ import { Flex, Box, Text, Button, Img } from "@chakra-ui/react";
 const GrowFaster = () => {
   return (
     <>
-      <Flex marginTop="40px" color="white" className="flex1">
-        <Box flex="1" bg="white">
+      <Flex marginTop="40px" color="white" className="flex1" >
+        <Box flex="1" bg="white"  >
           <h1 className="takeoff">
             Grow faster with our <br /> all-in-one marketing <br /> platform{" "}
           </h1>
@@ -17,7 +17,7 @@ const GrowFaster = () => {
           </Text>
         </Box>
 
-        <Box flex="1">
+        <Box flex="1"  >
           <Img
             height="85%"
             width="80%"
