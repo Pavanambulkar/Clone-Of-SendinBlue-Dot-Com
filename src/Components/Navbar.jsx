@@ -42,7 +42,7 @@ const Navbar = () => {
   </MenuButton>
   <MenuList>
     <MenuItem> <Link to='/whysendinblue'>Why SendinBlue?</Link> </MenuItem>
-    <MenuItem>EnterPrise</MenuItem>
+    <MenuItem> <Link to='/enterprise'>EnterPrise</Link> </MenuItem>
     
   </MenuList>
          </Menu>
