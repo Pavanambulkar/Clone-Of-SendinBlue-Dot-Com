@@ -1,17 +1,17 @@
-import React from 'react'
-import AddOns from '../PlanComponent/AddOns'
-import Plan from '../PlanComponent/Plan'
-import TemplateService from '../PlanComponent/TemplateService'
+import React from "react";
+import AddOns from "../PlanComponent/AddOns";
+import Plan from "../PlanComponent/Plan";
+import TemplateService from "../PlanComponent/TemplateService";
 
 const Payment = () => {
   return (
     <div>
-        <Plan/>
+      <Plan />
 
-<TemplateService/>
-<AddOns/>
+      <TemplateService />
+      <AddOns />
     </div>
-  )
-}
+  );
+};
 
-export default Payment
+export default Payment;
