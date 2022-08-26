@@ -2,6 +2,8 @@ import React from 'react'
 import { Box, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from '@chakra-ui/react'
 import Overview from './Overview'
 import PaymentMethod from './PaymentMethod'
+import BillingInfo from './BillingInfo'
+import Credit from './Credit'
 
 const Plan = () => {
   return (
@@ -27,7 +29,13 @@ const Plan = () => {
       <PaymentMethod/>
     </TabPanel>
     <TabPanel>
-      <p>three!</p>
+      <BillingInfo/>
+    </TabPanel>
+    <TabPanel>
+      <BillingInfo/>
+    </TabPanel>
+    <TabPanel>
+      <Credit/>
     </TabPanel>
   </TabPanels>
 </Tabs>

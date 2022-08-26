@@ -4,6 +4,7 @@ import React from 'react'
 const Overview = () => {
   return (
     <>
+      <Text fontSize='30px' fontWeight='bold' >OverView</Text>
     <Flex color='white' width='99%' margin='auto'>
   
   <Box flex='1' color='black'>
