@@ -1,6 +1,5 @@
 import React from "react";
 import { Flex, Center, Text, Box } from "@chakra-ui/react";
-import AiOutlineCheckSquare from "react-icons";
 import Styles from "./Module.Tools.css";
 const Tools = () => {
   return (

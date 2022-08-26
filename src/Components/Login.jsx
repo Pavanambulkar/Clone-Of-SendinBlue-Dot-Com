@@ -1,8 +1,19 @@
 import React from 'react'
+import AddOns from '../PlanComponent/AddOns'
+import Plan from '../PlanComponent/Plan'
+import TemplateService from '../PlanComponent/TemplateService'
+
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <>
+   
+<Plan/>
+
+<TemplateService/>
+<AddOns/>
+
+    </>
   )
 }
 

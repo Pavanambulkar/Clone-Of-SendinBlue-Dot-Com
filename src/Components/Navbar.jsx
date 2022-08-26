@@ -33,7 +33,8 @@ const Navbar = () => {
       >
         <Link to="/solution">
         
-          <Text fontSize={{ base: '24px', md: '40px', lg: '46px' }}>SendinBlue</Text>
+          {/* <Text fontSize={{ base: '24px', md: '40px', lg: '46px' }}>SendinBlue</Text> */}
+          <Img height='50px' src="https://strategyinsights.eu/wp-content/uploads/2021/05/sendinblue-logo.png" />
         </Link>
         <Link to="/solution">
         <Menu>
@@ -94,9 +95,10 @@ const Navbar = () => {
             <Menu>
 
            
-        <MenuButton as={Button} fontSize={{ base: '26px', md: '30px', lg: '20px' }} >
+        {/* <MenuButton as={Button}  >
         SignUp
-  </MenuButton>
+  </MenuButton> */}
+  <Button colorScheme='blue' fontSize={{ base: '26px', md: '30px', lg: '20px' }}> Sign Up Free</Button>
   </Menu>
           {/* <Text fontSize="xl"></Text> */}
         </Link>
