@@ -15,10 +15,12 @@ import {
 
   
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { authContext } from "../Context/AuthContext";
 
 const Navbar = () => {
+  const {isAuth, LogOut} = useContext(authContext)
   return (
     <>
       <Stack
@@ -89,7 +91,7 @@ const Navbar = () => {
         </Link>
         <Link to="/login">
          
-          <Text fontSize={{ base: '16px', md: '20px', lg: '20px' }}>Login</Text>
+          <Text fontSize={{ base: '16px', md: '20px', lg: '20px' }}>  {isAuth ? `LogOut`   : "Login" } </Text>
         </Link>
         <Link to="/signup">
             <Menu>
