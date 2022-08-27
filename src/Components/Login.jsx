@@ -17,6 +17,7 @@ import {
   useColorModeValue,
   Alert,
   AlertIcon,
+  Img,
 } from "@chakra-ui/react";
 import { authContext } from "../Context/AuthContext";
 import { useNavigate } from "react-router-dom";
@@ -43,7 +44,10 @@ const Login = () => {
           </Button>
         </Box>
       ) : (
-        <Flex minH={"100vh"} align={"center"} justify={"center"}>
+        <>
+        <Img  height='110px' width='390px' margin='auto' src='https://upload.wikimedia.org/wikipedia/commons/a/ae/Sendinblue_Logo.png' />
+
+        <Flex  minH={"100vh"} align={"center"} justify={"center"}>
           <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
             <Stack align={"center"}>
               <Heading fontSize={"4xl"}>Sign in to your account</Heading>
@@ -98,6 +102,7 @@ const Login = () => {
             </Box>
           </Stack>
         </Flex>
+        </>
       )}
       {!getToken && (
         <Box>

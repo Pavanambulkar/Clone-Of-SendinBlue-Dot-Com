@@ -13,15 +13,19 @@ import {
   Text,
   useColorModeValue,
   Link,
+  Img,
 } from '@chakra-ui/react';
 import { useState } from 'react';
 import UpdatingToastExample from '../SignupComponent/Toast';
 // import { ViewIcon, ViewOffIcon } from '@chḁkra-ui/icons';
+import { useNavigate } from 'react-router-dom';
 
 export default function SignupCard() {
   const [showPassword, setShowPassword] = useState(false);
-
+  const navigate = useNavigate()
   return (
+    <>
+    <Img height='250px' width='290px' margin='auto' src='https://cdn.softwarereviews.com/production/logos/offering_score_snapshots/61121/original/sendinblue-logo.png?1639740618' />
     <Flex
       minH={'100vh'}
       align={'center'}
@@ -77,25 +81,17 @@ export default function SignupCard() {
             </FormControl>
             <Stack spacing={10} pt={2}>
               <UpdatingToastExample/>
-              {/* <Button
-                loadingText="Submitting"
-                size="lg"
-                bg={'blue.400'}
-                color={'white'}
-                _hover={{
-                  bg: 'blue.500',
-                }}>
-                Sign up
-              </Button> */}
+             
             </Stack>
             <Stack pt={6}>
               <Text align={'center'}>
-                Already a user? <Link color={'blue.400'}>Login</Link>
+                Already a user? <Link color={'blue.400'} onClick={() => navigate('/login')}   >Login</Link>
               </Text>
             </Stack>
           </Stack>
         </Box>
       </Stack>
     </Flex>
+    </>
   );
 }

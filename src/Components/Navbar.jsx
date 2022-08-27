@@ -17,6 +17,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { authContext } from "../Context/AuthContext";
 
+
 const Navbar = () => {
   const { isAuth, LogOut } = useContext(authContext);
   return (
@@ -97,12 +98,21 @@ const Navbar = () => {
         <Link to="/blog">
           <Text fontSize={{ base: "16px", md: "20px", lg: "20px" }}>Blog</Text>
         </Link>
+
         <Link to="/login">
           <Text fontSize={{ base: "16px", md: "20px", lg: "20px" }}>
             {" "}
-            {isAuth ? `LogOut` : "Login"}{" "}
+
+            {isAuth ? <Button onClick={LogOut}> LogOut</Button> : "Login"}
           </Text>
         </Link>
+
+        {/* <Link to="/login">
+          <Text fontSize={{ base: "16px", md: "20px", lg: "20px" }}>
+            {" "}
+            {isAuth ? `LogOut` : "Login"}
+          </Text>
+        </Link> */}
         <Link to="/signup">
           <Menu>
             {/* <MenuButton as={Button}  >
@@ -119,6 +129,7 @@ const Navbar = () => {
           {/* <Text fontSize="xl"></Text> */}
         </Link>
       </Stack>
+      
     </>
   );
 };
