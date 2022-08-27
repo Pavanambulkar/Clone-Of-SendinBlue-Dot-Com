@@ -1,8 +1,11 @@
 import React from 'react'
+import WhySendinblue from '../Pages/WhySendinblue'
 
 const Resources = () => {
   return (
-    <div>Resources</div>
+    <div>
+      <WhySendinblue/>
+    </div>
   )
 }
 
