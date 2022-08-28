@@ -1,5 +1,5 @@
 import { Box, SimpleGrid, Img, Text } from "@chakra-ui/react";
-import axios from "axios";
+import axios from 'axios'
 import React, { useEffect, useState } from "react";
 import Pagination from "./Pagination";
 
