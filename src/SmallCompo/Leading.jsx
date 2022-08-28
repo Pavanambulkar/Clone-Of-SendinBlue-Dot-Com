@@ -12,9 +12,9 @@ const Leading = () => {
     <Text className='growing'>Named as one of the Top 100 software companies of 2021 and <br /> rated as the best Marketing Automation platform for SMBs. <br />
          Grow your business with Sendinblue!</Text>
 
-         <Text className='star1'> ⭐⭐⭐⭐⭐ 4.5/5 on Capterra / 900+ reviews</Text>
-         <Text className='star1'> ⭐⭐⭐⭐⭐ 4.6/5 on G2 / 1300+ reviews</Text>
-         <Text className='star1'> ⭐⭐⭐⭐⭐ 4.5/5 on Trustpilot / 2400+ reviews</Text>
+         <Text className='star'> ⭐⭐⭐⭐⭐ 4.5/5 on Capterra / 900+ reviews</Text>
+         <Text className='star'> ⭐⭐⭐⭐⭐ 4.6/5 on G2 / 1300+ reviews</Text>
+         <Text className='star'> ⭐⭐⭐⭐⭐ 4.5/5 on Trustpilot / 2400+ reviews</Text>
 
   </Box>
   <Box flex='1' >

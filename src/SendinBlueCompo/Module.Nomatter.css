@@ -1,0 +1,23 @@
+.img2{
+    height: 290px;
+    width: 250px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+.bt{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+.b4{
+   display: flex;
+   margin: auto;
+   justify-content: center;
+   margin-top: 10px;
+   gap: 30px;
+}
+.i{
+    margin-top: 20px;
+    width: 60px;
+}

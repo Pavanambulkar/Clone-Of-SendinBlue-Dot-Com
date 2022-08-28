@@ -1,8 +1,11 @@
 import React from 'react'
+import Solution from './Solution'
 
 const Features = () => {
   return (
-    <div>Features</div>
+    <div>
+      <Solution/>
+    </div>
   )
 }
 
