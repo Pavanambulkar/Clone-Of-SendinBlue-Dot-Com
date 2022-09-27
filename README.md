@@ -2,7 +2,6 @@
 # SendinBlue Clone – Project Work
 
 Unit-4 Construct Week Project
-This project was deployed with vercel https://enormous-underwear-686.vercel.app
 
 ## About
 About this project: This is a Individual project, built by me in the Construct Week - Unit 4 at Masai School.
