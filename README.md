@@ -5,9 +5,11 @@ Unit-4 Construct Week Project
 This project was deployed with vercel https://enormous-underwear-686.vercel.app
 
 ## About
+About this project: This is a Individual project, built by me in the Construct Week - Unit 4 at Masai School.
 This is useful for our company and Emails Data
 I have implemented all functionality of this website such 
 as  Solution, Pricing, Features, Resource, Blog, Plan, Login/Signup, etc.
+In this project I used HTML, Css, JavaScript, React and I used Some other css library like Bootstrap.
 
 ### Description
 Sendinblue is the only all-in-one digital marketing platform empowering B2B and B2C businesses, ecommerce sellers and agencies to build customer relationships through end to end digital marketing campaigns, transactional messaging, and marketing automation.
@@ -17,7 +19,7 @@ To deploy this project run
 https://enormous-underwear-686.vercel.app
 
 
-About this project: This is a Individual project, built by me in the Construct Week - Unit 4 at Masai School.
+
 
 ## Tech Stacks used
 HTML – 2.0%
