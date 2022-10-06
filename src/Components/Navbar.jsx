@@ -40,7 +40,7 @@ const Navbar = () => {
         </Link>
         <Link to="/solution">
           <Menu>
-            <MenuButton as={Button}>Solution</MenuButton>
+            <MenuButton fontSize={{ base: "16px", md: "20px", lg: "20px" }} as={Button}>Solution</MenuButton>
             <MenuList>
               <MenuItem>
                 {" "}
@@ -63,7 +63,7 @@ const Navbar = () => {
           <Menu>
             <MenuButton
               as={Button}
-              fontSize={{ base: "26px", md: "30px", lg: "20px" }}
+              fontSize={{ base: "16px", md: "20px", lg: "20px" }}
             >
               Features
             </MenuButton>
@@ -81,7 +81,7 @@ const Navbar = () => {
           <Menu>
             <MenuButton
               as={Button}
-              fontSize={{ base: "26px", md: "30px", lg: "20px" }}
+              fontSize={{ base: "16px", md: "20px", lg: "20px" }}
             >
               Resources
             </MenuButton>
@@ -120,7 +120,7 @@ const Navbar = () => {
   </MenuButton> */}
             <Button
               colorScheme="blue"
-              fontSize={{ base: "26px", md: "30px", lg: "20px" }}
+              fontSize={{ base: "16px", md: "20px", lg: "20px" }}
             >
               {" "}
               Sign Up Free

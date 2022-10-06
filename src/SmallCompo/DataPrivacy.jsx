@@ -4,11 +4,27 @@ import {Box, Text, Img, Button, Flex} from '@chakra-ui/react'
 const DataPrivacy = () => {
   return (
     <>
-   <Flex color='white' className='f1'>
+    <Flex
+      paddingTop="60px"
+        maxW="1000px"
+        w={["90vm", "90vm", "70vm", "70vm"]}
+        direction={["column", "column", "row", "row"]}
+        justify="center"
+        boxShadow="md"
+        rounded="lg"
+        margin="auto"
+        width="90%"
+        color='white' className='f1'
+      >
+ 
+   <Flex width="100%" marginTop="50px" align="center" mx="2" bg="white"  >
+
   
-  <Box flex='1'>
    <Img height='400px' width='400px' margin='auto' src='https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/shield.jpg' />
-  </Box>
+ 
+  </Flex>
+  <Flex width="100%" marginTop="50px" align="center" mx="2" bg="white"  >
+
   <Box flex='1' >
     <Text className='takeoff'>Your data privacy <br /> and security are a top <br /> concern for us.</Text>
     <Box display='flex' gap='20px' marginLeft='20px'>
@@ -21,7 +37,9 @@ const DataPrivacy = () => {
     Learn About GDPR Complaince
   </Button>
   </Box>
+  </Flex>
 </Flex>
+
     </>
   )
 }
