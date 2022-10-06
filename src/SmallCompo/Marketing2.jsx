@@ -1,51 +1,126 @@
 import React from "react";
-import { Box, Container, Text, Button, HStack } from "@chakra-ui/react";
+import { Box, Text, Button, HStack, Flex } from "@chakra-ui/react";
 
 const Marketing2 = () => {
   return (
+    
     <>
       <HStack className="m1">
-        <Box className="mm1">
-          <Text className="customers">
-            Give life to your <br /> customer journey.
-          </Text>
-        </Box>
-        <Box className="mm2">
-          <Box className="top1">
-            <Box>
-              <Button fontSize="20px">CRM</Button>
-              <Text marginTop="0px" className="growing">
-                Build stronger relationships <br /> by keeping track of all your{" "}
-                <br />
-                customer details in one Place.
-              </Text>
-            </Box>
-            <Box>
-              <Button fontSize="20px"> Marketing automation</Button>
-              <Text marginTop="0px" className="growing">
-                Save time and Boost <br /> performance by automating <br /> your
-                segmentation and <br /> marketing messages.
-              </Text>
-            </Box>
+        <Flex
+          paddingTop="60px"
+          maxW="1000px"
+          w={["90vm", "90vm", "70vm", "70vm"]}
+          direction={["column", "column", "row", "row"]}
+          justify="center"
+          boxShadow="md"
+          rounded="lg"
+          margin="auto"
+          width="90%"
+        >
+          <Box className="mm1">
+            <Text
+              textAlign="center"
+              fontSize={{ base: "24px", md: "38px", lg: "42px" }}
+              className="customers"
+            >
+              Give life to your <br /> customer journey.
+            </Text>
           </Box>
-          <Box className="top1">
-            <Box>
-              <Button marginTop='16px' fontSize="20px">Transactional email</Button>
-              <Text marginTop="0px" className="growing">
-                Step up design, <br /> engagement, and <br />
-                deliverability of your <br />
-                transactional email and messages.
-              </Text>
-            </Box>
-            <Box>
-              <Button marginTop='16px' fontSize="20px">Segmentation</Button>
-              <Text marginTop="0px" className="growing">
-                Get more engagement by <br /> sending your marketing <br />
-                messages to a more targeted <br /> audience.
-              </Text>
-            </Box>
+          <Box className="mm2">
+            <Flex
+              paddingTop="60px"
+              maxW="1000px"
+              w={["90vm", "90vm", "70vm", "70vm"]}
+              direction={["column", "column", "row", "row"]}
+              justify="center"
+              boxShadow="md"
+              rounded="lg"
+              margin="auto"
+              width="90%"
+            >
+              <Box className="top1">
+                <Flex
+                  width="100%"
+                  marginTop="50px"
+                  align="center"
+                  mx="2"
+                  bg="white"
+                >
+                  <Box>
+                    <Button fontSize="20px">CRM</Button>
+                    <Text
+                      fontSize={{ base: "24px", md: "24px", lg: "24px" }}
+                      marginTop="0px"
+                      className="growing"
+                    >
+                      Build stronger relationships by keeping track of all your{" "}
+                       customer details in one Place.
+                    </Text>
+                  </Box>
+                </Flex>
+                <Flex
+                  width="100%"
+                  marginTop="50px"
+                  align="center"
+                  mx="2"
+                  bg="white"
+                >
+                  <Box>
+                    <Button fontSize="20px">SMS Marketing</Button>
+                    <Text
+                      fontSize={{ base: "24px", md: "24px", lg: "24px" }}
+                      marginTop="0px"
+                      className="growing"
+                    >
+                      Communicate more directly with customers for urgent
+                      messages or time-sensitive offers.
+                    </Text>
+                  </Box>
+                </Flex>
+              </Box>
+            </Flex>
+            <Flex
+              paddingTop="60px"
+              maxW="1000px"
+              w={["90vm", "90vm", "70vm", "70vm"]}
+              direction={["column", "column", "row", "row"]}
+              justify="center"
+              boxShadow="md"
+              rounded="lg"
+              margin="auto"
+              width="90%"
+            >
+              <Box className="top1">
+                <Box>
+                  <Button marginTop="16px" fontSize="20px">
+                    Chat
+                  </Button>
+                  <Text
+                    fontSize={{ base: "24px", md: "24px", lg: "24px" }}
+                    marginTop="0px"
+                    className="growing"
+                  >
+                    Get the Word out and Sell more with Sleek email Messages
+                    that u can design in no time.
+                  </Text>
+                </Box>
+                <Box>
+                  <Button marginTop="16px" fontSize="20px">
+                    Inbox
+                  </Button>
+                  <Text
+                    fontSize={{ base: "24px", md: "24px", lg: "24px" }}
+                    marginTop="0px"
+                    className="growing"
+                  >
+                    Keep your teams organised with a shared inbox and never lose
+                    track of your customer email history again.
+                  </Text>
+                </Box>
+              </Box>
+            </Flex>
           </Box>
-        </Box>
+        </Flex>
       </HStack>
     </>
   );

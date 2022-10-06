@@ -13,9 +13,22 @@ import { Footer } from "../SmallCompo/Footer";
 const Solution = () => {
   return (
     <>
-    
-      <Flex color="white" className="flex1">
-        <Box flex="1" bg="white"  >
+    <Flex
+      paddingTop="60px"
+        maxW="1000px"
+        w={["90vm", "90vm", "70vm", "70vm"]}
+        direction={["column", "column", "row", "row"]}
+        justify="center"
+        boxShadow="md"
+        rounded="lg"
+        margin="auto"
+        width="90%"
+      >
+     
+        <Flex width="100%" marginTop="50px" align="center" mx="2" bg="white"  >
+          <Box>
+
+          
           <h1 className="takeoff">
             Prepare For
             <br />
@@ -28,12 +41,14 @@ const Solution = () => {
             marketing & sales tools.
           </Text>
           <Button className="btn1" colorScheme='blue'>Take a Free Test drive!</Button>
-                  </Box>
+          </Box>
+                  </Flex>
 
-        <Box flex="1" >
+        <Flex width="100%" marginTop="50px" align="center" mx="2" >
             <Img height='100%' width='100%' src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/home/section-video/cover.png" />
-        </Box>
+        </Flex>
       </Flex>
+     
 
       <Tools/>
       <Leading/>
