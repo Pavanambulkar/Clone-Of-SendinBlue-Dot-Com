@@ -17,11 +17,11 @@ const Tools = () => {
       >
       
       <Flex width="100%" marginTop="50px" align="center" mx="2" bg="white"  >
-        <Box flex="1" bg="rgb(4,74,117)">
+        <Box flex="1" height='100%' bg="rgb(4,74,117)">
           <Text fontSize={{ base: "24px", md: "38px", lg: "42px" }} className="tools2">Pick Your Tools</Text >
-          <Text fontSize={{ base: "24px", md: "28px", lg: "35px" }} className="text2">
-            We’ll help you reach the right <br /> people and produce the right{" "}
-            <br /> content
+          <Text  fontSize={{ base: "24px", md: "28px", lg: "35px" }} className="text2">
+            We’ll help you reach the right people and produce the right{" "}
+             content
           </Text>
         </Box>
         </Flex>
@@ -30,7 +30,7 @@ const Tools = () => {
         <Box flex="1" bg="rgb(4,74,117)">
         <Text fontSize={{ base: "24px", md: "38px", lg: "42px" }} className="tools2">Work smart not hard</Text>
           <Text fontSize={{ base: "24px", md: "28px", lg: "35px" }}  className="text2">
-          Focus on the important tasks and <br /> put the rest on autopilot with <br /> automation
+          Focus on the important tasks and  put the rest on autopilot with  automation
 
 
           </Text>
@@ -41,7 +41,7 @@ const Tools = () => {
         <Box flex="1" height='100%' bg="rgb(4,74,117)">
         <Text fontSize={{ base: "24px", md: "38px", lg: "42px" }} className="tools2">We've got your back</Text>
           <Text fontSize={{ base: "24px", md: "28px", lg: "35px" }}  className="text2">
-          We’ll be here round-the-clock to <br /> support you with any questions
+          We’ll be here round-the-clock to  support you with any questions
           </Text>
         </Box>
       </Flex>

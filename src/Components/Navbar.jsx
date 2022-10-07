@@ -1,5 +1,5 @@
 import {
-  Container,
+  
   Text,
   Img,
   Stack,
@@ -7,10 +7,7 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
+ 
   Button,
 } from "@chakra-ui/react";
 import React, { useContext } from "react";
@@ -26,15 +23,17 @@ const Navbar = () => {
         direction={["column", "row"]}
         spacing="74px"
         marginTop="10px"
-        border="1px solid grey"
+        // border="1px solid grey"
         paddingLeft="10px"
         alignItems="center"
         height="60px"
+        width="90%"
       >
         <Link to="/solution">
           {/* <Text fontSize={{ base: '24px', md: '40px', lg: '46px' }}>SendinBlue</Text> */}
           <Img
             height="50px"
+            width="100%"
             src="https://strategyinsights.eu/wp-content/uploads/2021/05/sendinblue-logo.png"
           />
         </Link>
@@ -52,7 +51,6 @@ const Navbar = () => {
               </MenuItem>
             </MenuList>
           </Menu>
-          {/* <Text fontSize="xl"></Text> */}
         </Link>
         <Link to="/pricing">
           <Text fontSize={{ base: "16px", md: "20px", lg: "20px" }}>
@@ -75,7 +73,6 @@ const Navbar = () => {
               <MenuItem>Inbox</MenuItem>
             </MenuList>
           </Menu>
-          {/* <Text fontSize="xl">Features</Text> */}
         </Link>
         <Link to="/resources">
           <Menu>
@@ -93,7 +90,6 @@ const Navbar = () => {
               <MenuItem>Service Lab</MenuItem>
             </MenuList>
           </Menu>
-          {/* <Text fontSize="xl">Resources</Text> */}
         </Link>
         <Link to="/blog">
           <Text fontSize={{ base: "16px", md: "20px", lg: "20px" }}>Blog</Text>
@@ -107,17 +103,10 @@ const Navbar = () => {
           </Text>
         </Link>
 
-        {/* <Link to="/login">
-          <Text fontSize={{ base: "16px", md: "20px", lg: "20px" }}>
-            {" "}
-            {isAuth ? `LogOut` : "Login"}
-          </Text>
-        </Link> */}
+        
         <Link to="/signup">
           <Menu>
-            {/* <MenuButton as={Button}  >
-        SignUp
-  </MenuButton> */}
+            
             <Button
               colorScheme="blue"
               fontSize={{ base: "16px", md: "20px", lg: "20px" }}
@@ -136,17 +125,6 @@ const Navbar = () => {
 
 export default Navbar;
 
-{
-  /* <Menu>
-  <MenuButton as={Button} >
-    Actions
-  </MenuButton>
-  <MenuList>
-    <MenuItem>Download</MenuItem>
-    <MenuItem>Create a Copy</MenuItem>
-    <MenuItem>Mark as Draft</MenuItem>
-    <MenuItem>Delete</MenuItem>
-    <MenuItem>Attend a Workshop</MenuItem>
-  </MenuList>
-</Menu> */
-}
+
+
+
