@@ -12,7 +12,21 @@ import HereCustomer from '../EnterpriseCompo/HereCustomer';
 const WhySendinblue = () => {
   return (
     <>
-    <Flex marginTop='40px' color="white" className="flex1">
+     <Flex
+      paddingTop="60px"
+        maxW="1000px"
+        w={["90vm", "90vm", "70vm", "70vm"]}
+        direction={["column", "column", "row", "row"]}
+        justify="center"
+        boxShadow="md"
+        rounded="lg"
+        margin="auto"
+        width="90%"
+        color="white" className="flex1"
+      >
+     
+     <Flex width="100%" marginTop="50px" align="center" mx="2" bg="white"  >
+
         <Box flex="1" bg="white"  >
           <h1 className="takeoff">
           Bring your business <br /> online. We’ve got <br /> your back.
@@ -23,10 +37,14 @@ const WhySendinblue = () => {
             relationships with your customers — all in one platform.
           </Text>
                   </Box>
+  </Flex>
+  <Flex width="100%" marginTop="50px" align="center" mx="2" bg="white"  >
 
         <Box flex="1" >
             <Img height='90%' width='90%' src="https://cdn.vox-cdn.com/thumbor/F0qr-a5Wc-dHetzcloMSOw-sGYw=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21693783/iStock_1047941552.jpg" />
         </Box>
+        </Flex>
+     
       </Flex>
       <GrowFaster/>
       <RelationShip/>

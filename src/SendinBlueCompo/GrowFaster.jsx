@@ -4,7 +4,21 @@ import { Flex, Box, Text, Button, Img } from "@chakra-ui/react";
 const GrowFaster = () => {
   return (
     <>
-      <Flex marginTop="40px" color="white" className="flex1" >
+    <Flex
+      paddingTop="60px"
+        maxW="1000px"
+        w={["90vm", "90vm", "70vm", "70vm"]}
+        direction={["column", "column", "row", "row"]}
+        justify="center"
+        boxShadow="md"
+        rounded="lg"
+        margin="auto"
+        width="90%"
+        color="white" className="flex1"
+      >
+     
+     <Flex width="100%" marginTop="50px" align="center" mx="2" bg="white"  >
+      
         <Box flex="1" bg="white"  >
           <h1 className="takeoff">
             Grow faster with our <br /> all-in-one marketing <br /> platform{" "}
@@ -16,6 +30,9 @@ const GrowFaster = () => {
             relationships — <br /> without the enterprise price tag.
           </Text>
         </Box>
+        </Flex>
+
+        <Flex width="100%" marginTop="50px" align="center" mx="2" bg="white"  >
 
         <Box flex="1"  >
           <Img
@@ -24,7 +41,10 @@ const GrowFaster = () => {
             src="https://www.sendinblue.com/wp-content/uploads/2021/07/grow-faster.png"
           />
         </Box>
-      </Flex>
+        </Flex>
+        </Flex>
+     
+    
     </>
   );
 };

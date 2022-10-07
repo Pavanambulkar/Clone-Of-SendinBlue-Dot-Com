@@ -11,6 +11,8 @@ const Nomatter = () => {
         templateRows="repeat(2,)"
         templateColumns="repeat(3, 1fr)"
         marginTop='30px'
+        direction={["column", "column", "row", "row"]}
+        minChildWidth='120px'
        
       >
         <GridItem w="100%" bg="rgb(255,217,212)">
