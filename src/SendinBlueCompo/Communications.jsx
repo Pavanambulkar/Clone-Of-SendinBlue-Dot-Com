@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Img, Text} from '@chakra-ui/react'
+import {Box,  Text} from '@chakra-ui/react'
 import Styles from './Module.Communication.css'
 const Communications = () => {
   return (

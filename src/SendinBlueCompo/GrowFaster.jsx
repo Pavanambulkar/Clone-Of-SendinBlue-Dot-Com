@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Box, Text, Button, Img } from "@chakra-ui/react";
+import { Flex, Box, Text,  Img } from "@chakra-ui/react";
 
 const GrowFaster = () => {
   return (

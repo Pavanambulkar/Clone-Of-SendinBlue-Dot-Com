@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Text, Img, Button, Flex, Wrap, WrapItem} from '@chakra-ui/react'
+import {Box, Text, Img, Button, Flex, } from '@chakra-ui/react'
 
 const MarketZen = () => {
   return (

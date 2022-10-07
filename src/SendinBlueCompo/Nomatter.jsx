@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, GridItem, Img, Button, Text, Box, Badge, SimpleGrid } from "@chakra-ui/react";
+import { Grid, GridItem, Img, Button, Text, Box, Badge,} from "@chakra-ui/react";
 import Styles from "./Module.Nomatter.css";
 const Nomatter = () => {
   return (

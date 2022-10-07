@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Module.solution.css";
-import { Flex, Center, Square, Box, Text, Button, Img, Container } from "@chakra-ui/react";
+import { Flex,  Box, Text, Button, Img, } from "@chakra-ui/react";
 import Tools from "../SmallCompo/Tools";
 import Leading from "../SmallCompo/Leading";
 import Doit from "../SmallCompo/Doit";
