@@ -25,7 +25,6 @@ export default function SignupCard() {
   const navigate = useNavigate()
   return (
     <>
-    <Img height='250px' width='290px' margin='auto' src='https://cdn.softwarereviews.com/production/logos/offering_score_snapshots/61121/original/sendinblue-logo.png?1639740618' />
     <Flex
       minH={'100vh'}
       align={'center'}

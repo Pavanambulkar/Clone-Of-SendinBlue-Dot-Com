@@ -45,7 +45,6 @@ const Login = () => {
         </Box>
       ) : (
         <>
-        <Img  height='110px' width='390px' margin='auto' src='https://upload.wikimedia.org/wikipedia/commons/a/ae/Sendinblue_Logo.png' />
 
         <Flex  minH={"100vh"} align={"center"} justify={"center"}>
           <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
